@@ -1,0 +1,18 @@
+body {
+  font-size: var(--root-font-size);
+}
+
+a {
+  color: var(--clr-darkgray);
+  text-decoration: none;
+}
+
+a:focus {
+  color: var(--clr-darkgray);
+  text-decoration: underline;
+}
+
+a.active-link {
+  color: var(--clr-darkgray);
+  text-decoration: none;
+}
